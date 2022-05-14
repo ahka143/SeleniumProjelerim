@@ -15,7 +15,7 @@ public class youtubeVideoInderme {
         driver.get("https://www.youtube.com");
         //"ahmet bulutluoz"'u ara
         WebElement aramaKutusuElementi = driver.findElement(By.xpath("//input[@id='search']"));
-        aramaKutusuElementi.sendKeys("kitaro silk road");
+        aramaKutusuElementi.sendKeys("Ahmet Bulutluoz");
         aramaKutusuElementi.submit();
         //cikan sonuctaki ilk videounun linkini al.
         WebElement ilkVideoElenti = driver.findElement(By.xpath("(//a[@id='video-title'])[1]"));
